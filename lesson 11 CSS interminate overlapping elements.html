@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlapping Elements</title>
+    <style>
+        #mywork2{background-color:aqua; width:400px;height:350px;padding:50px;position:relative}
+        #sqone{border:2px solid blue;background-color: lightblue;position: relative;z-index: 1;}
+        #sqtwo{border:2px solid blue;background-color: yellow;position: relative;left: 130px;bottom: 100px;z-index:2;}
+        #sqthree{border:2px solid blue;background-color:gray;position:  relative;left:200px;bottom:150px;z-index:3;}
+        #sqone,#sqtwo,#sqthree{margin-bottom:5px;padding:5px;width:350px;height:150px;}
+    </style>
+</head>
+<body>
+      <h1>Css position(static)</h1>
+    <div id="mywork2">
+        <div id=sqone>1</div>
+        <div id="sqtwo">2</div>
+        <div id="sqthree">3</div>
+    </div>
+</body>
+</html>

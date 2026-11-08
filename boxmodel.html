@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model & sizing</title>
+    <style>
+        img{width:407px;height:400px}
+        .box{width:400px;background:goldenrod;border:solid green;padding:2px;margin:5px 0px;}
+        .box1{box-sizing:border-box;width:407px;background:green;border:dotted red;padding:2px;}
+        .box2{width:400px;background:pink;border:2px solid red;outline:thick groove green;outline-offset: 5px;margin:3px;}
+
+    </style>
+</head>
+<body>
+
+    <h1>Box model example</h1>
+    <img src="dog-1.jpg">
+    <div class="box">
+        <h4>Dog 2</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis soluta, aperiam aspernatur quos obcaecati, culpa est voluptates inventore minus recusandae fuga tempore quia rem similique pariatur eius nobis dignissimos eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quos sequi beatae blanditiis a, enim unde accusantium quasi inventore quidem fuga, ratione eveniet impedit libero eligendi ipsam nostrum ut. Soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, laboriosam. Voluptate quis aspernatur culpa quo? Debitis atque, ratione aut reiciendis nam vel quibusdam totam odio, ipsa quae similique nihil vero?</p>
+    </div>
+
+    <h1>Box sizing model</h1>
+    <img src="dog-1.jpg">
+        <div class="box1">
+        <h4>Dog 2</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis soluta, aperiam aspernatur quos obcaecati, culpa est voluptates inventore minus recusandae fuga tempore quia rem similique pariatur eius nobis dignissimos eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quos sequi beatae blanditiis a, enim unde accusantium quasi inventore quidem fuga, ratione eveniet impedit libero eligendi ipsam nostrum ut. Soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, laboriosam. Voluptate quis aspernatur culpa quo? Debitis atque, ratione aut reiciendis nam vel quibusdam totam odio, ipsa quae similique nihil vero?</p> 
+    </div>
+
+
+        <h1> outline model</h1>
+
+        <div class="box2">
+        <h4>Dog 2</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis soluta, aperiam aspernatur quos obcaecati, culpa est voluptates inventore minus recusandae fuga tempore quia rem similique pariatur eius nobis dignissimos eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quos sequi beatae blanditiis a, enim unde accusantium quasi inventore quidem fuga, ratione eveniet impedit libero eligendi ipsam nostrum ut. Soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, laboriosam. Voluptate quis aspernatur culpa quo? Debitis atque, ratione aut reiciendis nam vel quibusdam totam odio, ipsa quae similique nihil vero?</p> 
+    </div>
+</body>
+</html>

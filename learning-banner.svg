@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="265" viewBox="0 0 620 265">
+<rect width="620" height="265" fill="#eef4ff" rx="14"/>
+<rect x="38" y="49" width="280" height="171" rx="12" fill="#1d3557"/>
+<rect x="53" y="65" width="250" height="130" fill="#15243e" rx="5"/>
+<text x="69" y="96" fill="#61dbb8" font-family="monospace" font-size="21">&lt;html&gt;</text>
+<text x="89" y="128" fill="#e4ebff" font-family="monospace" font-size="19">&lt;h1&gt;Hello!&lt;/h1&gt;</text>
+<text x="89" y="157" fill="#94c2fc" font-family="monospace" font-size="18">&lt;p&gt;I can code&lt;/p&gt;</text>
+<text x="69" y="186" fill="#61dbb8" font-family="monospace" font-size="21">&lt;/html&gt;</text>
+<rect x="25" y="214" width="305" height="12" rx="6" fill="#5479b2"/>
+<rect x="364" y="50" width="207" height="155" rx="12" fill="#ffffff" stroke="#c6d5ee" stroke-width="3"/>
+<rect x="386" y="71" width="163" height="14" rx="6" fill="#a8bbff"/>
+<rect x="386" y="97" width="112" height="10" rx="5" fill="#c9d2e7"/>
+<rect x="386" y="117" width="145" height="10" rx="5" fill="#c9d2e7"/>
+<rect x="386" y="148" width="68" height="36" rx="8" fill="#2db4a1"/>
+<rect x="466" y="148" width="68" height="36" rx="8" fill="#7b91d9"/>
+<circle cx="552" cy="39" r="22" fill="#fcbf73"/>
+<path d="M540 40h24M552 28v24" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+</svg>
